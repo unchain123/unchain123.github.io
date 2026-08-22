@@ -259,6 +259,9 @@
     break-after: avoid;
   }
 
+  /* 대문자 변환 영역에서도 브랜드 표기(iOS 등)는 원래 대소문자를 지킨다 */
+  .brand-case { text-transform: none; }
+
   h3 {
     font-family: var(--serif);
     font-weight: 600;
@@ -790,7 +793,7 @@
   </section>
 
   <section>
-    <h2>파트너스 — 웹 서비스의 iOS 앱 전환</h2>
+    <h2>파트너스 — 웹 서비스의 <span class="brand-case">iOS</span> 앱 전환</h2>
 
     <article class="project" style="padding-top:0;">
       <div class="proj-meta">
@@ -843,7 +846,7 @@
   </section>
 
   <section>
-    <h2>큐마켓 — 하이브리드에서 네이티브 iOS 전환</h2>
+    <h2>큐마켓 — 하이브리드에서 네이티브 <span class="brand-case">iOS</span> 전환</h2>
 
     <article class="project" style="padding-top:0;">
       <div class="proj-meta">
